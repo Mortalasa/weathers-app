@@ -1,0 +1,145 @@
+button{
+    font-family: monospace;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 3px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 300px;
+    /* margin-left: 300px; */
+
+    
+    
+}
+#city{
+    background-color: white;
+    font-family: monospace;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    margin-right: 5px;
+
+
+}
+
+
+#state{
+    background-color: white;
+    font-family: monospace;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 5px;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: white;
+    grid-template-columns: repeat(1, 1fr);
+    /* height: 100 vh; */
+}
+#mainBody{
+    margin: 0;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;
+    background: url(../images/gradient_blue.jpeg);
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    /* grid-template-columns: repeat(1, 1fr); */
+    width: 500px;
+    height: 700px; 
+    border-color: black;
+    border: 3px solid;
+    border-radius: 15px;
+
+
+    
+
+    
+}
+#weather, #humidty, #description, #wind {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+   /* margin-left: 200px; */
+    padding: 20px;
+    border-color: black;
+    text-align: center;
+}
+    
+#placehold{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+   /* margin-left: 200px; */
+    padding: 20px;
+    border-color: black;
+    text-align: center;
+}
+
+
+
+
+
+#output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+body{
+margin: 0;
+justify-content: center;
+align-items: center;
+height: 100vh;
+/* background: url(../images/gradient_blue.jpeg); */
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.left_input{
+width: 50px;
+height: 100px;
+margin-left: 2px;
+}
+
+.right_input{
+width: 50px;
+height: 100px;
+margin-left: 46px;
+}
+.inputs{
+    display: flex;
+    
+}
+#image{
+    width: 100px; 
+    margin-left: 200px;
+}
+
+#output_1{
+    display: flex;
+}
+#output_2{
+    display: flex;
+}
+
+#first_output, #second_output, #third_output, #fourth_output{
+    margin: 0;
+    width: 250px;
+}

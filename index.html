@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainBody">
+        
+        <div class="inputs">
+            <div class = "left_input">
+                <input type="text"placeholder = "enter a state Ex: NC,OH,NY" id="state">
+                <input type="text" placeholder = "enter a city" id ="city">
+
+
+            </div>
+            <div class="right_input">
+                <button onclick="getWeather()">Find Weather</button>
+                 
+            </div>
+            
+            
+        </div>
+
+        
+        <div id="outputs">
+            <div id = "image">
+                <img id="weather_icon" src="#" alt="">
+            </div>
+            <div id=output_1>
+                <div id = "first_output">
+                <p id="placehold">Temperature</p>
+                <p id="weather"></p>
+                </div>
+
+                <div id="second_output">
+                    <p id="placehold">Humdity</p>
+                    <p id="humidty"></p>
+                </div>
+            </div>
+            
+            
+            <div id="output_2">
+                <div id="third_output">
+                    <p id="placehold">Description</p>
+                    <p id = "description"></p> 
+                </div>
+                <div id="fourth_output">
+                    <p id="placehold">Wind Speed </p>
+                    <p id="wind"></p>
+                </div>
+            </div>
+
+        </div>
+        
+</div>
+</body>
+<link rel="stylesheet" href="weather_style.css">
+<script src="weather.js"></script>
+</html>
